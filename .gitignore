@@ -1,0 +1,7 @@
+*/node_modules/*
+**/frontend/.env
+**/frontend/.env.production
+**/backend/nodemon.json
+**/backend/uploads/images/**
+**/backend/*.log
+**/frontend/build/**
