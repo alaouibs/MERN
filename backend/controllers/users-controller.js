@@ -1,4 +1,3 @@
-const uuid = require('uuid/v4');
 const {
   validationResult
 } = require('express-validator');
@@ -18,7 +17,7 @@ const getUsers = async (req, res, next) => {
 
     return next(error)
   }
-
+  
   res.status(201).json({
     users: users.map(user => user.toObject({
       getters: true
@@ -30,6 +29,7 @@ const getUsers = async (req, res, next) => {
 const signup = async (req, res, next) => {
 
   console.log('signup request received')
+
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return next(new HttpError('Invalid inputs passed, please check your data.', 422));
