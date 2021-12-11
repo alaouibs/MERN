@@ -11,11 +11,6 @@ Documenting my process of learning to build a fullstack MERN application followi
 - **Express**;
 - **Mongo DB**.
 
-##### Deployment
-
-- **Google Firebase** for the **Front-end** ;
-- **Heroku** Apps for the **Back-end**.
-
 ##### USED API's
 
 - **Google Maps** API.
@@ -24,3 +19,7 @@ Documenting my process of learning to build a fullstack MERN application followi
 
 ## Screenshots:
 
+![view 1](/screenshots/1.png)
+![view 2](/screenshots/2.png)
+![view 3](/screenshots/3.png)
+![view 3](/screenshots/4.png)
